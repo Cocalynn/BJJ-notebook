@@ -4,7 +4,7 @@ layout: base.njk
 tag: []
 ---
 
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="flex flex-wrap justify-center gap-8">
 {% for pos in collections.positions %}
   <a href="{{ pos.url }}" class="block bg-white rounded-2xl shadow-luxe overflow-hidden transform hover:scale-105 transition duration-300">
     <div class="aspect-video overflow-hidden">

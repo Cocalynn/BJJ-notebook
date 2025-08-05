@@ -1,9 +1,9 @@
 ---
-title: "Full Mount - Armbar"
+title: "Lasso Guard - 1"
 date: 2025-08-03
-video: "/media/positions/full-mount-armbar.mp4"
-gif: "/media/positions/full-mount-armbar.gif"
-tags: [mount, control]
+video: "/media/positions/lasso-1.mp4"
+gif: "/media/positions/lasso-1.gif"
+tags: [guard, sweep]
 layout: position.njk
 ---
 ### **Key Details**
