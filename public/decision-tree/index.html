@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link href="/css/styles.css" rel="stylesheet"/>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <title>Decision Tree</title>
+</head>
+<body class="bg-muted text-primary font-sans">
+
+  <div class="flex min-h-screen">
+    <!-- Sidebar -->
+    <nav class="w-64 bg-white border-r p-4 fixed h-full">
+  <h1 class="text-2xl font-bold mb-6">BJJ Notebook</h1>
+  <ul class="space-y-2">
+    <li><a href="/" class="hover:text-blue-600">Dashboard</a></li>
+    <li><a href="/positions/" class="hover:text-blue-600">Positions</a></li>
+    <li><a href="/competitions/" class="hover:text-blue-600">Competitions</a></li>
+    <li><a href="/decision-tree/" class="hover:text-blue-600">Decision Tree</a></li>
+  </ul>
+</nav>
+<div class="w-64"></div> 
+
+
+    <!-- Main + Footer column -->
+    <div class="flex flex-col flex-1 min-h-screen">
+      <main class="flex-1 p-8">
+        <div class="mermaid">
+graph TD
+  A[Guard Posture] --> B[Establish Grips]
+  A --> C[Break Posture]
+  B --> D[Pass to Full Mount]
+  C --> E[Escape to Sweep]
+  D --> F["<a href='/positions/full-mount/' style='color:#3182ce;text-decoration:underline;'>Armbar Attempt</a>"]
+  D --> G[Cross Collar Choke]
+  D --> H[Maintain Mount]
+</div>
+<p class="mt-4 text-sm text-gray-500">
+<b>Tip:</b> Click on any technique node in the tree to view related videos and notes from your personal BJJ notebook.
+</p>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({
+    startOnLoad: true,
+    flowchart: {
+      htmlLabels: true
+    }
+  });
+</script>
+      </main>
+    </div>
+  </div>
+
+  <!-- Mermaid -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      flowchart: {
+        htmlLabels: true
+      }
+    });
+  </script>
+</body>
+</html>

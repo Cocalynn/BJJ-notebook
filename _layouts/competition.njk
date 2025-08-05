@@ -1,0 +1,13 @@
+---
+layout: base.njk
+---
+<article class="max-w-3xl mx-auto">
+  <h1 class="text-3xl font-bold mb-2">{{ title }}</h1>
+  <p class="italic text-gray-600 mb-4">Date: {{ date }} | Result: {{ result }}</p>
+  {% if video %}
+    <video src="{{ video }}" controls class="w-full rounded shadow mb-6"></video>
+  {% endif %}
+  <div class="prose">
+    {{ content | safe }}
+  </div>
+</article>

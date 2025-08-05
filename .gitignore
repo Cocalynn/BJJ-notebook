@@ -1,0 +1,11 @@
+# Ignore media files
+*.mp4
+*.mov
+*.avi
+*.webm
+*.gif
+
+# Ignore media folders (adjust to match your setup)
+videos/
+media/
+assets/videos/

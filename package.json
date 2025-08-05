@@ -1,0 +1,21 @@
+{
+  "name": "bjj-notebook",
+  "version": "1.0.0",
+  "description": "My BJJ technique notebook",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build:css": "tailwindcss -i src/css/tailwind.css -o static/css/styles.css --minify",
+    "build": "npm run build:css && eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "autoprefixer": "^10.0.0",
+    "postcss": "^8.0.0",
+    "tailwindcss": "^3.0.0"
+  }
+}
