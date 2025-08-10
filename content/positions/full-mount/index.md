@@ -7,18 +7,16 @@ tags: [mount, control]
 layout: position.njk
 ---
 ### **Key Details**
-- High chest pressure  
-- Wide knee base  
+- High mount! isolate his arm with his body
+- Knee under his shoulder  
+- Pretend cross-collar choke => then knee under his shoulder => then armbar
+
 <br>
 
 ### **Common Mistakes**
 - Chest too low  
-- Arms flared out  
-<br>
+- Arms flared out 
 
-### **Drills**
-- Knee-slide repetitions  
-- Static shoulder-pressure holds  
 <br>
 
 ---
