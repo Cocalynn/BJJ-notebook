@@ -1,0 +1,25 @@
+---
+title: "Half Guard Bottom Sweep"
+date: 2025-08-13
+video: "/media/positions/Half-Guard-Bottom-Sweep.mp4"
+gif: "/media/positions/Half-Guard-Bottom-Sweep.gif"
+tags: []
+layout: position.njk
+---
+### **Key Details**
+- 
+
+<br>
+
+### **Common Mistakes**
+- 
+
+<br>
+
+---
+
+<br>
+
+### **📝 Notes**
+
+<br>

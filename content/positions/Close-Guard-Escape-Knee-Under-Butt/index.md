@@ -22,8 +22,6 @@ layout: position.njk
 
 ### **📝 Notes**
 
-_Write your personal observations or improvements here._
-
 <br>
 
 - 
